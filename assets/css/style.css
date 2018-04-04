@@ -1,0 +1,79 @@
+body {
+    background-image: url("hypnotize.png");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-centered {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.name {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: grey;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    clear: both;
+    overflow: auto;
+}
+
+main {
+    width: 960px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin: 20px auto;
+    clear: both;
+    overflow: auto;
+}
+
+#main-bio {
+    margin: 20px;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    color: white;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
