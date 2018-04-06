@@ -1,30 +1,37 @@
 body {
-    background-image: url("hypnotize.png");
+    background-image: url("../images/hypnotize.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-centered {
-    width: 960px;
-    margin: 0 auto;
-    background-color: #ffffff;
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
 }
 
-.name {
-    float: left;
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 32px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
 }
 
-.navbar {
-    float: right;
-}
-
-li {
-    display: inline;
-}
-
-a {
-    color: grey;
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 
 header {
@@ -34,6 +41,33 @@ header {
     border-bottom: 2px solid #cccccc;
     clear: both;
     overflow: auto;
+}
+
+.header-centered {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name {
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar {
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #777777;
 }
 
 main {
@@ -46,7 +80,12 @@ main {
 }
 
 #main-bio {
-    margin: 20px;
+    padding: 20px;
+}
+
+.about-me {
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
 }
 
 #bio-image {
@@ -64,16 +103,76 @@ footer {
     text-align: center;
 }
 
-h1 {
-    color: white;
-    background-color: #4aaaa5;
-    margin: 0;
-    text-align: center;
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.box-set {
+    position: relative;
+    height: 680px;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
 }
 
-h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/box1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/box2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/box3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    position: absolute;
+    top: 220px;
+    left: 310px;
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/box4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/box5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-header {
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 20px;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
